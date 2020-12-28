@@ -12,7 +12,7 @@ This is very compact and easy to implement architecture, which perform really we
   <li> Pytorch==1.6.0</li>
   </ul>
 <h2> Preprocessing. </h2>
-<p>If you go the <b> dataset.py </b> it contain two function for visualizing  distribution of classes and distribution of images, You can play with different normalization vs standardization techniques, In this project I use standardization approach, where i transform my image to have mean 0 and standard deviation of 1. Their is no standard way to choose which technqiues we should use, Mostly depend on the distribution of data. 
+<p>If you go through <b> dataset.py </b> it contain two function for visualizing  distribution of classes and distribution of images, You can play with different normalization vs standardization techniques, In this project I use standardization approach, where i transform my image to have mean 0 and standard deviation of 1. Their is no standard way to choose which technqiues we should use, Mostly depend on the distribution of data. 
 Second thing, in given dataset we are provided with bounding boxes so instead of sending the whole image to Model, I cropped the image using those bounding box convert to gray scale image and apply <b> low pass filter </b> (GaussianBlur), to remove noise and smooth images. 
 Than I resize my image to 32 by 32 with channel of 1. Next thing which is really imortant if you visualize the classes from the function given in dataset.py you will realize that data is highly imabalanced, So it can easily become bais for certain classes which is not good.
 So I used few techniques to deal with this situation thanks to pytorch. 
