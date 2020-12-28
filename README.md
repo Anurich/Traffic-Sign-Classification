@@ -42,6 +42,8 @@ For Testing:
 <figure>
   </p>
 <p> Image below shows the prediction output of test images 
-    <img src="predictedImages.png"/>
+    <figure>
+    <img src="predictedImages.png" height="300" width="500"/>
+  </figure>
 </p>
 
