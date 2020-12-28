@@ -2,8 +2,8 @@
 In this work I make a small model for classification of different signs in road for example stop sign, walk sign, no entry sign etc.<br/>
 This work is not based on any paper instead inspired by udacity nano degree program for self driving car. The blog post for this is available in Medium artical so you can check that out. 
 <h2> Project Overview. </h2>
-In this work I used LeNet architecture by <b>Yann LeCun </b> proposed in 1989, This architecutre consist of convolutional layer followed by <b> sigmoid </b> activation but in my case I used <b> tanh </b> and Subsampling layer which is nothing but average pooling followed by Linear layers.
-This is very compact and easy to implement architecture, which perform really well for this project.
+In this work I used LeNet architecture by <b>Yann LeCun </b> proposed in 1989, This architecutre consist of convolutional layer followed by <b> sigmoid </b> activation but in my case I used <b> tanh </b> after the activation layer it consist of  Subsampling layer which is nothing but average pooling followed by Linear layers.
+This is very compact and easy to implement architecture, which perform really well for this project.//
 <img src="lenet.png"/>
 <h2> Installion. </h2>
   <ul>
