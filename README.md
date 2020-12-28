@@ -20,7 +20,7 @@ Than I resize my image to 32 by 32 with channel of 1. Next thing which is really
 So I used few techniques to deal with this situation thanks to pytorch. 
 <ul>
   <li> Number one, I seprate train, test and validation data using GroupShuffleSplit followed by SubsetRandomSampler </li>
-  <li> Second, I compute the weight for frequency of Labels, whose formula is given as <b>(1./count_no_label)</b> and used WeightedRandomSampler with replacement False so that we don't have repeated values, this help to balanced a data. </li>
+  <li> Second, I compute the weight for frequency of Labels, whose formula is given as <b>(1./frequency_of_labels)</b> and used WeightedRandomSampler with replacement False so that we don't have repeated values, this help to balanced a data. </li>
 </ul>
 Above approaches may not necessary work for every case of imabalanced dataset.
 </p>
