@@ -46,4 +46,8 @@ For Testing:
     <img src="predictedImages.png" height="300" width="500"/>
   </figure>
 </p>
-
+  <h2> Important Note. </h2>
+  This kind of classifier is a major componet of self driving car, for example if we use detection algorithm to detect the signs on road we than can use these classifier to predict which kind of signs are those. So this project can be combined with some object detection algorithm where the task of detection algorithm should be to detect signs on road. Project can be extended for classification of traffic lights.
+  
+  <h2> Contribute. </h2>
+  Feel free to contribute and point out any mistake in code, I am still exploring this facinating field of AI. Hope to Improve more in near future.
