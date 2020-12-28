@@ -17,12 +17,22 @@ Second thing, in given dataset we are provided with bounding boxes so instead of
 Than I resize my image to 32 by 32 with channel of 1. Next thing which is really imortant if you visualize the classes from the function given in dataset.py you will realize that data is highly imabalanced, So it can easily become bais for certain classes which is not good.
 So I used few techniques to deal with this situation thanks to pytorch. 
 <ul>
-  <li> Number one, I seprate train, test and validation data using GroupShuffleSplit and SubsetRandomSampler </li>
-  <li> Second, I computer the weight for frequency of Labels, whose formula is given as <b>(1./count_no_label)</b> and used WeightedRandomSampler with replacement False so that we don't have repeated values, this help to balanced a data. </li>
+  <li> Number one, I seprate train, test and validation data using GroupShuffleSplit followed by SubsetRandomSampler </li>
+  <li> Second, I compute the weight for frequency of Labels, whose formula is given as <b>(1./count_no_label)</b> and used WeightedRandomSampler with replacement False so that we don't have repeated values, this help to balanced a data. </li>
 </ul>
 Above approaches may not necessary work for every case of imabalanced dataset.
 </p>
-
+<h2> Training & Testing. </h2>
+For Training:
+<pre>
+<code>
+  python model.py --train yes
+</code>
+For Testing:
+<code>
+  python model.py --train no
+</code>
+</pre>
 
 
 
