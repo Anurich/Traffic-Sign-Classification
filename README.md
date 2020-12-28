@@ -5,7 +5,7 @@ This work is not based on any paper instead inspired by udacity nano degree prog
 <p>In this work I used LeNet architecture by <b>Yann LeCun </b> proposed in 1989, This architecutre consist of convolutional layer followed by <b> sigmoid </b> activation but in my case I used <b> tanh </b> after the activation layer it consist of  Subsampling layer which is nothing but average pooling followed by Linear layers.
 This is very compact and easy to implement architecture, which perform really well for this project.<p>
 <br/>
-<img src="lenet.png"/>
+<img src="lenet.png" height="300" width="500"/>
 <h2> Installion. </h2>
   <ul>
   <li> Python==3.6.6</li>
