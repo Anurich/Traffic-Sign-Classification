@@ -23,8 +23,9 @@ So I used few techniques to deal with this situation thanks to pytorch.
 Above approaches may not necessary work for every case of imabalanced dataset.
 </p>
 <h2> Training & Testing. </h2>
-For Training:
+
 <pre>
+For Training:
 <code>
   python model.py --train yes
 </code>
@@ -34,5 +35,8 @@ For Testing:
 </code>
 </pre>
 
+<h2> Results. </h2>
+I train this network for only 10 epochs, with limited dataset Feel free to use more dataset and change the network according to your need 
+<img src="train_vs_val.png" />
 
 
