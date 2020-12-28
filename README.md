@@ -36,7 +36,9 @@ For Testing:
 </pre>
 
 <h2> Results. </h2>
-<p>I train this network for only 10 epochs, with limited dataset Feel free to use more dataset and change the network according to your need </p>
+<p>I train this network for only 10 epochs, with limited dataset Feel free to use more dataset and change the network according to your need. Fig.1 below shows loss and accuracy of trian and validation sets.  </p>
+<figure>
 <img src="train_vs_val.png"  height="300" width="500"/>
-
+<figcaption>Fig.1 - (val_loss vs train_loss) & (val_acc vs train_acc).</figcaption>
+<figure>
 
