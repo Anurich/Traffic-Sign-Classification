@@ -36,7 +36,7 @@ For Testing:
 </pre>
 
 <h2> Results. </h2>
-I train this network for only 10 epochs, with limited dataset Feel free to use more dataset and change the network according to your need 
-<img src="train_vs_val.png" />
+<p>I train this network for only 10 epochs, with limited dataset Feel free to use more dataset and change the network according to your need </p>
+<img src="train_vs_val.png"  height="200" width="200"/>
 
 
