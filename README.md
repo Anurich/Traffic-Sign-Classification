@@ -37,6 +37,6 @@ For Testing:
 
 <h2> Results. </h2>
 <p>I train this network for only 10 epochs, with limited dataset Feel free to use more dataset and change the network according to your need </p>
-<img src="train_vs_val.png"  height="200" width="200"/>
+<img src="train_vs_val.png"  height="500" width="500"/>
 
 
